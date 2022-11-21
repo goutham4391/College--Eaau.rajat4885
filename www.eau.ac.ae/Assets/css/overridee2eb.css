@@ -1,0 +1,213 @@
+﻿.priceelement {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: right;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+.priceelement .pricelabel{
+    float: left;
+    font-weight: normal;
+}
+@media screen and (min-width: 768px) {
+    .box-link__wrap.last:nth-child(2n+1) {
+        left: 25%;
+    }
+
+    .career-fairs .contourPage .contourNavigation .col-sm-12 {
+        margin-left: 16.8%;
+        text-align: left;
+    }
+
+    .forms-container .widget {
+        margin-bottom: 42px;
+    }
+
+    .career-fairs .control-label {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box-link__wrap.last {
+        margin-bottom: 43px;
+    }
+
+    .career-fairs .admissions-form .row-fluid .span12.col-md-12 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .career-fairs .admissions-form .contourPage .contourNavigation .form-group .col-sm-12 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+     .career-fairs .admissions-form .contourPage .contourNavigation .form-group .col-sm-12 .btn-primary {
+        width:100%;
+    }
+}
+
+.career-fairs .contourPage .contourNavigation .row.form-submit, .career-fairs .contourPage .contourNavigation .form-group {
+    margin-bottom: 0px;
+}
+
+.forms-container .content-wrap {
+    padding-top: 0px;
+}
+
+.career-fairs input[data-name*="Email"] {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left:7px;
+}
+.youtubeicon {
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+.font_size_14 {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1200px)  {
+    .find-course__link {
+        font-size: 16px;
+    }
+}
+
+.pag-shoes .pag-text {
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 0;
+    color: #333333;
+    padding: 10px 40px 10px 20px;
+    position: relative;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    transition: all 0.5s ease;
+}
+
+.pag-shoes .pag-text.active {
+    color: #333333;
+    border-bottom: 0;
+}
+
+.pag-shoes .pag-text:hover {
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 50%);
+    transition: all 0.5s ease;
+    color: #C21920;
+}
+
+.pag-shoes .pag-text:after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 16px;
+    width: 16px;
+    height: 12px;
+    display: block;
+    background: url(../images/icons/chevron-right-red.svg) no-repeat;
+    background-size: 12px;
+    background-position: center;
+}
+
+.pag-shoes > div > a {
+    display: flex;
+}
+
+.pag-shoes > div > a:hover, .pag-shoes > div > a:visited, .pag-shoes > div > a:hover .pag-text { 
+    text-decoration: none;
+}
+
+.swiper-wrapper .swiper-slide picture:before {
+    /*background: rgba(0, 0, 0, 0.5);*/
+    background: none;
+}
+
+.hero.hero-option2 {
+    height: auto;
+    min-height: auto;
+}
+
+@media screen and (max-width: 991px) {
+    .pag-shoes > div .pag-text {
+        width: 240px !important;
+        border-bottom: none;
+        margin: 0;
+    }
+
+    .pag-shoes > div .pag-text:hover {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pag-shoes > div .pag-text {
+        width: 240px !important;
+        border-bottom: none;
+    }
+}
+@media screen and (min-width: 991px) {
+    .hero--inner .hero-text {
+        max-width: 586px;
+        background: #ffffff;
+        bottom: 0;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding: 30px 30px 25px 30px;
+        color: #333333;
+    }
+    .hero--inner .hero-text:after {
+        background-color: #333333;
+        bottom: -5px;
+        height: 3px;
+    }
+    .hero--inner .hero-text .hero-text__heading {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .hero--inner .hero-text .hero-text__heading small {
+        color: #5E5E5E;
+        font-size: 18px;
+    }
+    .contact-details {
+        margin: 0 auto;
+    }
+    .hero--inner .hero-text.text-with-btn {
+        max-width: 900px;
+        padding-bottom: 70px;
+    }
+    .hero--inner .hero-text.text-with-btn::after {
+        display: none;
+    }
+    .hero--inner .hero-text.text-with-btn + .hero-description {
+        top: auto;
+        bottom: 20px;
+        transform: none;
+        transform: translateX(-50%);
+    }
+    .hero-text__para, .hero-text p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .hero--inner .hero-text:after, .hero--nobg .hero-text:after {
+        background: #333333;
+        height: 3px;
+    }
+    .hero-text__heading {
+        color: #333333;
+    }
+    .hero-text__para, .hero-text p {
+        font-size: 18px;
+    }
+}
+
+.hero:before {
+    background: none;
+}
